@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    /* background: red; */
+    overflow: hidden;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+nav{
+    width: 50%;
+    float: right;
+}
+nav ul{
+
+list-style: none;
+
+text-transform: uppercase;
+
+/* background: brown; */
+
+overflow: hidden;
+
+float: right;
+}
+nav ul li{
+    font-family: 'Playfair Display', serif;
+
+float: left;
+
+margin-left: 50px;
+
+/* background: blue; */
+}
+.banner{
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.banner img{
+    width: 100%;
+}
+.photodiary{
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+.photodiary h5{
+    font-family: 'Ubuntu', sans-serif;
+
+color: #b4ad9e;
+
+font-size: 14px;
+
+font-weight: 400;
+
+text-transform: uppercase;
+
+margin-top: 90px;
+}
+.photodiary h1{
+    font-family: 'Playfair Display', serif;
+
+color: #626262;
+
+font-size: 30px;
+
+margin-top: 30px;
+
+margin-bottom: 30px;
+text-transform: capitalize;
+}
+.photodiary p{margin-bottom: 40px;color: #626262;
+    font-family: 'Playfair Display', serif;
+}
+.photodiary h6{
+    font-family: 'Ubuntu', sans-serif;
+    
+color: #b4ad9e;
+    
+font-size: 14px;
+    
+font-weight: 400;
+    
+text-transform: uppercase;
+    
+margin-bottom: 140px;
+}
