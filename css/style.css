@@ -217,11 +217,13 @@ margin-bottom: 140px;
 }
 .news{
     background-color: #f0f0f0;
+    margin-bottom: 100px;
 }
 .news_content{
     width: 26%;
     margin: auto;
     padding: 70px;
+    position: relative;
 }
 .news_content h1{
     font-family: 'Playfair Display', serif;
@@ -244,4 +246,53 @@ margin-bottom: 140px;
     
     color: #626262;
     font-family: 'Playfair Display', serif;
+}
+.send{
+    
+position: absolute;
+    
+top: 217px;
+    
+left: 430px;
+}
+.load{
+    
+text-align: center;
+}
+.load button{
+font-family: 'Playfair Display', serif;
+font-weight: 500;
+padding: 15px 40px;
+margin-bottom: 150px;
+}
+footer{
+    background: #f0f0f0;
+    overflow: hidden;
+}
+.footer_content{
+    width: 80%;
+    margin: auto;
+    padding: 30px 0;
+}
+.terms{
+    width: 30%;
+    float: left;
+}
+.terms ul{
+    list-style: none;
+}
+.terms ul li{
+    float: left;
+    margin-right: 10px;
+}
+.icons{
+    width: 30%;
+    float: right;
+}
+.icons ul{
+    list-style: none;
+}
+.icons ul li{
+    float: right;
+    margin-left: 15px;
 }
