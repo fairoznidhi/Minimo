@@ -272,7 +272,8 @@ footer{
 .footer_content{
     width: 80%;
     margin: auto;
-    padding: 30px 0;
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
 .terms{
     width: 30%;
@@ -280,6 +281,9 @@ footer{
 }
 .terms ul{
     list-style: none;
+    color: #303030;
+    font-family: 'Playfair Display', serif;
+    font-size: small;
 }
 .terms ul li{
     float: left;
@@ -291,8 +295,15 @@ footer{
 }
 .icons ul{
     list-style: none;
+    float: right;
+    color: #626262;
+    font-family: 'Playfair Display', serif;
+    font-size:small;
+}
+.icons ul li:first{
+    color: #303030;
 }
 .icons ul li{
-    float: right;
+    float: left;
     margin-left: 15px;
 }
